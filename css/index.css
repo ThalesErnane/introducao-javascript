@@ -110,7 +110,8 @@ button{
 	width: 20%;
     display: block;
     clear: both;
-    margin: 10px 0px;
+	margin: 10px 0px;
+	border-radius: 5px;
 
 }
 
@@ -136,5 +137,20 @@ button[disabled=disabled], button:disabled {
 .paciente-invalido {
 	background-color: red;
 	color: white;
+
+}
+
+form label {
+	font-size: 20px;
+	font-weight: bold;
+	
+
+}
+
+
+
+.container  h2{
+	margin-top: 30px;
+
 
 }
